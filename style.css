@@ -1,0 +1,307 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    color: white;
+    
+    background-image: url(./backlit.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(182, 179, 179);
+}
+.dot{
+    border: none;
+    background-color: white;
+    font-size: 50px;
+    
+}
+span{
+    color: white;
+    font-size: 100px;
+    
+}
+h3{
+    flex-wrap: wrap;
+}
+.companies{
+    display: flex;
+    gap: 380px;
+    margin-left: 40px;
+}
+.second{
+    display: flex;
+    gap: 250px;
+    padding-left: 85px;
+    margin-right: 70px;
+}
+.company{
+    border-radius: 50%;
+}
+.hr{
+    border: 1px black solid;
+    width: 80%;
+    margin-left: 150px;
+}
+.wrap{
+    flex-wrap: wrap;
+    font-size: 50px;
+}
+.underhr{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 400px;
+    padding: 20px;
+}
+.undertxt{
+    border: 1px black solid;
+    width: 120px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.underhr img{
+    width: 300px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+.row{
+    width: 400px;
+}
+.bigimg{
+    display: flex;
+    gap: 159px;
+}
+.nothing_for_me{
+    display: flex;
+    gap: 550px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+.nothing_for_me h6{
+    font-size: 20px;
+}
+.nothing_for_me h5{
+    font-size: 100px;
+    margin-top: -40px;
+}
+.span span{
+    flex-wrap: wrap;
+
+}
+.span{
+    width: 200px;
+}
+.sites{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    flex-wrap: wrap;
+        }
+.gap{
+    margin-top: -30px;
+    padding-left: 5px;
+}
+h3{
+    min-width: 300px;
+        }
+.google{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+        }
+.above_footeer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+}
+.above_footeer h1{
+    font-size: 100px;
+
+}
+.above_footeer h4{
+    border-radius: 20px;
+    border: 1px black solid;
+    width: 100px;
+    padding: 2px;
+    text-align: center;
+}
+.news{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+    
+    gap: 600px;
+}
+.news h4{
+    border-radius: 20px ;
+    border: 1px black solid;
+    width: 100px;
+    
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.txtfoot{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 200px;
+}
+.ffoot{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.bggrey{
+
+}
+.animation h1{
+    flex-wrap: wrap;
+    width: 400px;
+
+}
+.animation{
+    display: flex;
+    gap: 200px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
+.rowes{
+    display: flex;
+    flex-direction: column;
+}
+.secf{
+    display: flex;
+    gap: 50px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 100px;
+    background-color: black;
+
+    color: white;
+}
+.firstf input{
+    border: none;
+    background-color: black;
+    text-decoration: underline white;
+    
+}
+.first h3{
+    flex-wrap: wrap;
+    
+}
+.none{
+    
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+@media screen and (max-width: 700px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .menu h2{
+        display: none;
+    }
+    .dotss{
+        display: none;
+    }
+    .hr{
+        margin-left: 5px;
+    }
+    .none{
+        display: block;
+        margin-top: 20px;
+    }
+    .name{
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+    }
+    h2{
+        display: none;
+    }
+    .companies{
+        display: flex;
+        flex-direction: row;
+        width: 430px;
+        margin-left: 20px;
+        gap: 0;
+    }
+    .first{
+        flex-wrap: wrap;
+        width: 140px;
+    }
+    .company{
+        width: 70px;
+    }
+    .first h3{
+        flex-wrap: wrap;
+        width: 70px;
+    }
+    .underhr{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bigimg{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .span span{
+        font-size: 70px;
+    }
+    .sites{
+        display: flex;
+        flex-direction: column;
+    }
+    .above_footeer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .above_footeer h1{
+        font-size: 50px;
+    }
+    .news h4{
+        display: none;
+    }
+    .ffoot{
+        display: flex;
+        flex-direction: column;
+    }
+    .txtfoot{
+        gap: 30px;
+    }
+    .nothing_for_me{
+        gap: 100px;
+        margin-left: 20px;    }
+        .footer{
+            padding: 20px;
+            
+        }
+        .secf{
+    display: flex;
+    flex-direction: column;           
+        }
+}
